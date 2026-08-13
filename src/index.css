@@ -877,6 +877,70 @@ footer {
   }
 }
 
+/* ---------- Admin Table Responsive ---------- */
+
+@media (max-width: 860px) {
+  .admin .container {
+    overflow-x: hidden;
+  }
+
+  .lead-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .lead-table th,
+  .lead-table td {
+    padding: 12px 10px;
+  }
+
+  .lead-thumb,
+  .lead-thumb-empty {
+    width: 38px;
+    height: 38px;
+  }
+
+  .btn-danger {
+    padding: 7px 12px;
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .admin {
+    padding-top: 45px;
+  }
+
+  .admin-head {
+    align-items: flex-start;
+  }
+
+  .admin-head h2 {
+    font-size: 1.6rem;
+  }
+
+  .admin-head .btn {
+    padding: 9px 18px;
+    font-size: 0.82rem;
+  }
+
+  .lead-table {
+    margin-top: 20px;
+    font-size: 0.8rem;
+  }
+
+  .lead-table th {
+    font-size: 0.62rem;
+    padding: 9px 8px;
+  }
+
+  .lead-table td {
+    padding: 10px 8px;
+  }
+}
+
 /* ---------- Reduced Motion ---------- */
 
 @media (prefers-reduced-motion: reduce) {
